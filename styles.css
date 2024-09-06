@@ -68,6 +68,12 @@ body {
 	margin: 0 auto;
 }
 
+.ProjectContent p {
+	font-size: 1rem;
+	text-align: center;
+	color: red;
+}
+
 .ProjectContent h1 {
 	color: #F8F8F2;
 	text-align: center;
@@ -169,6 +175,10 @@ body {
 	
 	.ProjectContent h1 {
 		font-size: 1.4rem;
+	}
+	
+	.ProjectContent p {
+		font-size: 0.9rem;
 	}
 	
 	.ProjectList a {
