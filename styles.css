@@ -1,0 +1,184 @@
+/* Main Tag */
+
+body {
+	margin: 0;
+	font-family: 'Fira Code', monospace;
+	color: #A6E22E;
+	background: #2D2D2D;
+}
+
+.Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	overflow: auto;
+	padding: 20px;
+}
+
+.HeaderImage img {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.GlobalNav {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	color: #F8F8F2;
+	font-size: 1.2rem;
+	padding-bottom: 20px;
+}
+
+.GlobalNav a {
+	color: #F92672;
+	text-decoration: none;
+}
+
+.GlobalNav a:hover {
+	text-decoration: underline;
+}
+
+/* Home Page */
+
+.HomeContent {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.HomeContent p {
+	font-size: 1rem;
+	text-align: justify;
+	text-align-last: left;
+	hyphens: auto;
+	word-spacing: 0.1em;
+}
+
+.HomeContent h1 {
+	color: #F8F8F2;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/* Project Page */
+
+.ProjectContent {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.ProjectContent h1 {
+	color: #F8F8F2;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.ProjectList {
+	margin: 20px auto;
+}
+
+.ProjectList a {
+	color: #66D9EF;
+	background: #353E43;
+	border-radius: 10px;
+	padding: 0 10px;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.ProjectList a:hover {
+	text-decoration: underline;
+}
+
+.ProjectList img {
+	width: 100%;
+	max-width: 302px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-bottom: 2px dashed white;
+}
+
+/* Footer */
+
+.GlobalFooter {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	color: #FFCC00;
+	padding: 20px;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+/* Color List */
+
+.color-pink {
+	color: #F92672;
+}
+	
+.color-green {
+	color: #A6E22E;
+}
+	
+.color-cyan {
+	color: #66D9EF;
+}
+	
+.color-white {
+	color: #F8F8F2;
+}
+
+.color-orange {
+	color: #FFCC00;
+}
+
+/* Blinking Cursor Animation */
+	
+.blinking-cursor {
+	display: inline-block;
+	border-right: 4px solid #F8F8F2;
+	white-space: nowrap;
+	animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+	from, to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #F8F8F2;
+	}
+}
+
+/* Media Queries for Mobile Devices */
+
+@media (max-width: 768px) {	
+	.GlobalNav {
+		font-size: 1.1rem;
+	}
+	
+	.HomeContent p {
+		font-size: 0.9rem;
+	}
+	
+	.HomeContent h1 {
+		font-size: 1.4rem;
+	}
+	
+	.ProjectContent h1 {
+		font-size: 1.4rem;
+	}
+	
+	.ProjectList a {
+		font-size: 0.9rem;
+	}
+	
+	.GlobalFooter {
+		font-size: 0.8rem;
+	}
+}
