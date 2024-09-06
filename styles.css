@@ -51,10 +51,7 @@ body {
 
 .HomeContent p {
 	font-size: 1rem;
-	text-align: justify;
-	text-align-last: left;
-	hyphens: auto;
-	word-spacing: 0.1em;
+	text-align: center;
 }
 
 .HomeContent h1 {
